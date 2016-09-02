@@ -1,0 +1,37 @@
+@import (once) "/SNY_Factory/common/css/common.css";
+ 
+div.modal-dialog {
+    //width: 800px;
+    div.modal-container[name='製品マスタ'] {
+        div.modal-header{
+            padding-bottom: 0px;
+        }
+        div.modal-body {
+            height: 460px;
+            table.top_modal_table {
+                margin-bottom: 10px;
+                tr td {
+                    &:nth-child(1) {width: 50px;}
+                    &:nth-child(2) input {width: 450px;}
+                }
+            }
+            table.middle_modal_table {
+                margin-bottom: 10px;
+                tr td {
+                    padding-left: 10px;
+                    &:nth-child(odd) {width: 110px; text-align: right;}
+                    &:nth-child(even) input {width: 50px;}
+                }
+            }
+            // modal with and height in html 2016/2/13 yh
+            div.grid.grid.ui-grid.ng-isolate-scope{
+                height: 350px;
+            }
+        }
+        div.modal-footer{
+            button:nth-child(1) {
+                margin-left: 200px;
+            }
+        }
+    }
+}

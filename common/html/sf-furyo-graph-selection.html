@@ -1,0 +1,11 @@
+<table class="sny_graph_selection sny_table_2row sny_bgcolor_radio">
+    <tr>
+        <td class="sny_light_blue">グラフ指定</td>
+    </tr>
+    <tr>
+        <td><input type="radio" enter-as-tab name="optradio3" value=0 ng-model="MI.props['グラフ指定']"/>月間不良率パレート図（指定期間）</td>
+    </tr>
+    <tr>
+        <td><input type="radio" enter-as-tab name="optradio3" value=1 ng-model="MI.props['グラフ指定']"/>年間不良率パレート図（指定期間までの<input class="sny_input_right_aligned30" type="text" ng-model="MI.props['期間']" ng-class="{sny_grayed_out: MI.props['グラフ指定'] === '0'}" ng-disabled="MI.props['グラフ指定'] === '0'" ng-readonly="MI.props['グラフ指定'] === '0'" ng-keydown="MI.keypress($event, 'グラフ指定')"/>ヶ月間）</td>
+    </tr>
+</table>       

@@ -1,0 +1,36 @@
+@import "/SNY_Factory/common/css/common.css";
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-header {
+  padding-bottom: 0px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body {
+  height: 460px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.top_modal_table {
+  margin-bottom: 10px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.top_modal_table tr td:nth-child(1) {
+  width: 50px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.top_modal_table tr td:nth-child(2) input {
+  width: 450px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.middle_modal_table {
+  margin-bottom: 10px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.middle_modal_table tr td {
+  padding-left: 10px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.middle_modal_table tr td:nth-child(odd) {
+  width: 110px;
+  text-align: right;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body table.middle_modal_table tr td:nth-child(even) input {
+  width: 50px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-body div.grid.grid.ui-grid.ng-isolate-scope {
+  height: 350px;
+}
+div.modal-dialog div.modal-container[name='製品マスタ'] div.modal-footer button:nth-child(1) {
+  margin-left: 200px;
+}
+/*# sourceMappingURL=製品マスタ.css.map */

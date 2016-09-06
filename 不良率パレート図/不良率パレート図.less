@@ -1,0 +1,58 @@
+@import (once) "/SNY_Factory/common/css/common.css";
+/* #less */
+div.sny_panel { 
+    width: 620px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+//    font-size: 14px;
+    div.ui-grid-row:nth-child(2n+0) .ui-grid-cell  {
+        background: white;
+    }
+    div.sny_left_panel {
+        width: 220px;
+        float: left;
+        table.sny_data_choice {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            width: 200px;
+            tr td {&:nth-child(1) {padding-left: 20px;}}            
+        }
+        table.sny_multiple_choice {
+            width: 200px;
+            margin-bottom: 10px;
+            tr td {&:nth-child(1) {padding-left: 20px;}}
+        }        
+    }
+    div.sny_right_panel {
+        float: right;
+        width: 400px;
+        table.sny_graph_selection {
+            width: 350px;
+            tr td {padding-left: 10px;}
+        }
+        table.sny_furyo_katamei {
+            margin-bottom: 10px;
+            tr td {
+                &:nth-child(1) {width: 40px;}
+                &:nth-child(2) {
+                    input[readonly]{
+                       background: #CCC;
+                       color: #333;
+                    }
+                    input {width: 240px; text-transform: uppercase;}
+                }
+            }
+        }
+        div.grid.koteigroup_list_table.ui-grid.ng-isolate-scope{
+            height: 200px;
+        }
+    }
+    div.bottom_buttons {
+        width: 310px;
+        margin-left: 265px;
+        clear: both;
+        button {margin-top: 10px; width: 100px;}
+    }
+}
